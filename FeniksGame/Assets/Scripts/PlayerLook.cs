@@ -4,8 +4,6 @@ public class PlayerLook : MonoBehaviour
 {
     private float mouseX;
     private float mouseY;
-
-    [Header("Чуствительность мыши")]
     private float sensitivityMouse = 200f;
 
     [SerializeField] private Transform Player;

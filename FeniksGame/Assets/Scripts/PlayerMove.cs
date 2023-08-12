@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private bool isGrounded;
     [SerializeField] private float jumpPower = 200f;
     [SerializeField] private Transform Player;
-    [SerializeField] private GameObject pauseUI;
+    [SerializeField] private GameObject narration;
     private Rigidbody rb;
 
     private void Start()
@@ -50,17 +50,14 @@ public class PlayerMove : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.B))
         {
-            pauseUI.SetActive(!pauseUI.activeInHierarchy);
-            if (pauseUI.activeInHierarchy)
+            narration.SetActive(!narration.activeInHierarchy);
+            if (narration.activeInHierarchy)
             {
                 Time.timeScale = 0;
-                GetComponent<PlayerLook>().enabled = false;
-                Cursor.lockState = CursorLockMode.None;
             }
             else
             {
                 Time.timeScale = 1;
-                GetComponent<PlayerLook>().enabled = true;
             }
         }
     }
