@@ -2839,7 +2839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   isGrounded: 1
-  jumpPower: 200
+  jumpPower: 20000
   Player: {fileID: 2128543974}
   narration: {fileID: 1339057500}
 --- !u!1001 &2653327081050501400
