@@ -46,7 +46,7 @@ public class PlayerMove : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
-            rb.AddForce(transform.up * jumpPower);
+            rb.AddForce(transform.up * jumpPower * 1000);
         }
         if (Input.GetKey(KeyCode.B))
         {
