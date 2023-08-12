@@ -549,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d161e5cc53d5d0f40aa0119ff67b7f07, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d161e5cc53d5d0f40aa0119ff67b7f07, type: 3}
       propertyPath: m_LocalScale.y
@@ -667,7 +667,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326476309
 GameObject:
@@ -935,7 +935,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &799747449
 GameObject:
@@ -2517,7 +2517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1039023705364310400, guid: 6fd78d3bdcb47074285d61515d19e6d6, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1039023705364310400, guid: 6fd78d3bdcb47074285d61515d19e6d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2726,7 +2726,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2056904206
 GameObject:
@@ -2899,3 +2899,60 @@ MonoBehaviour:
   jumpPower: 20
   Player: {fileID: 2128543974}
   narration: {fileID: 1339057500}
+--- !u!1001 &8554168378006409323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.359985
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159462235030155832, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8824780382632126594, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
+      propertyPath: m_Name
+      value: BLOODDAEMONnormsword
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d78eb6cc57c019489b0330c1927327c, type: 3}
