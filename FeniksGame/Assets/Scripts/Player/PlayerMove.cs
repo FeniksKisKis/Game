@@ -7,7 +7,6 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private bool isGrounded;
     [SerializeField] private float jumpPower = 200f;
     [SerializeField] private Transform Player;
-    [SerializeField] private GameObject narration;
     private Rigidbody rb;
 
     private void Start()
@@ -47,18 +46,6 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             rb.AddForce(transform.up * jumpPower * 1000);
-        }
-        if (Input.GetKey(KeyCode.B))
-        {
-            narration.SetActive(!narration.activeInHierarchy);
-            if (narration.activeInHierarchy)
-            {
-                Time.timeScale = 0;
-            }
-            else
-            {
-                Time.timeScale = 1;
-            }
         }
     }
     

@@ -8,27 +8,30 @@ public class PlayerController : MonoBehaviour
 {
     private int health;
     [SerializeField] private Text healthText;
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform bulletStart;
-    [SerializeField] private Animator animatorPistol;
+    [SerializeField] private GameObject narration;
 
     void Start()
     {
-        ChangeHealth(100);
+        ChangeHealth(200);
     }
-
     public void ChangeHealth(int value)
     {
         health += value;
         healthText.text = "Health: " + health.ToString();
     }
-
-    private void OnTriggerEnter(Collider other)
+    private void GetInput()
     {
-        if (other.CompareTag("HP"))
+        if (Input.GetKey(KeyCode.B))
         {
-            ChangeHealth(50);
-            Destroy(other.gameObject);
+            narration.SetActive(!narration.activeInHierarchy);
+            if (narration.activeInHierarchy)
+            {
+                Time.timeScale = 0;
+            }
+            else
+            {
+                Time.timeScale = 1;
+            }
         }
     }
 }
