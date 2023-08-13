@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    private int health;
+    [SerializeField] private int health;
     [SerializeField] private Text healthText;
     [SerializeField] private GameObject narration;
 
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public void ChangeHealth(int value)
     {
         health += value;
-        healthText.text = "Health: " + health.ToString();
+        healthText.text = health.ToString();
     }
     private void Update()
     {
@@ -38,5 +38,4 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
 }
