@@ -19,6 +19,10 @@ public class PlayerController : MonoBehaviour
         health += value;
         healthText.text = "Health: " + health.ToString();
     }
+    private void Update()
+    {
+        GetInput();
+    }
     private void GetInput()
     {
         if (Input.GetKey(KeyCode.B))
@@ -34,4 +38,5 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
 }
