@@ -1646,7 +1646,7 @@ GameObject:
   - component: {fileID: 3628416505563266059}
   m_Layer: 0
   m_Name: Mesh
-  m_TagString: Demon
+  m_TagString: BloodDemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3168,9 +3168,10 @@ GameObject:
   - component: {fileID: 7370269850569752273}
   - component: {fileID: 2766012458108063124}
   - component: {fileID: 5660306139657003624}
+  - component: {fileID: 3534373130094802887}
   m_Layer: 0
   m_Name: BLOODDAEMONnormsword
-  m_TagString: Demon
+  m_TagString: BloodDemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3222,8 +3223,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  areaMove: 50
+  areaMove: 25
   areaAttack: 5
+  timerAttack: 1
+  HP: 150
 --- !u!143 &5660306139657003624
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3242,6 +3245,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 2, z: 0.5}
+--- !u!65 &3534373130094802887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824780382632126594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1, z: 3}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &8958812178358435412
 GameObject:
   m_ObjectHideFlags: 0

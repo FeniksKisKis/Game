@@ -9,7 +9,7 @@ TagManager:
   - Terrain
   - Narration
   - NarrationShere
-  - Demon
+  - BloodDemon
   layers:
   - Default
   - TransparentFX

@@ -23,9 +23,9 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Demon"))
+        if (other.CompareTag("BloodDemon"))
         {
-            Destroy(other.gameObject);
+            other.GetComponent<Demon>().HPDemon(-50);
         }
         Destroy(gameObject);
     }
