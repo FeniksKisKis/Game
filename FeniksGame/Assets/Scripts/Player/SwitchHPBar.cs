@@ -31,7 +31,7 @@ public class SwitchHPBar : MonoBehaviour
     }
     void Update()
     {
-        HP = HPText.text;
+        //HP = HPText.text;
         ExaminationHPBar();
     }
     void ExaminationHPBar()
@@ -54,7 +54,7 @@ public class SwitchHPBar : MonoBehaviour
         }
         else if (HP < 150)
         {
-            if (HP.text > 125)
+            if (HP > 125)
             {
                 hpbar = HPBar.HP150;
                 ChooseHPBar(hpbar);
@@ -111,12 +111,12 @@ public class SwitchHPBar : MonoBehaviour
                 HP150.SetActive(false);
                 HP125.SetActive(false);
                 break;
-            case HPBar.HP200:
-                HP200.SetActive(false);
-                HP175.SetActive(true);
-                HP150.SetActive(false);
-                HP125.SetActive(false);
-                break;
+            //case HPBar.HP200:
+                //HP200.SetActive(false);
+                //HP175.SetActive(true);
+                //HP150.SetActive(false);
+                //HP125.SetActive(false);
+                //break;
         }
     }
 }

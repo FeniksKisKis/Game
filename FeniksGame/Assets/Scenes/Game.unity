@@ -4105,21 +4105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd6b74062de51c34dac0e9547f3b3125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  healthText: {fileID: 271834277}
   narration: {fileID: 1339057500}
---- !u!114 &2128543992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128543972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1bc64cbf7c2e549a1009a9d7755d33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   HP200: {fileID: 2038026807}
   HP175: {fileID: 1234291600}
   HP150: {fileID: 1639949690}
@@ -4128,7 +4114,8 @@ MonoBehaviour:
   HP75: {fileID: 836975785}
   HP50: {fileID: 61484635}
   HP25: {fileID: 1011757225}
-  HP: {fileID: 271834277}
+  HP: 0
+  HPText: {fileID: 271834277}
 --- !u!1001 &8554168378006409323
 PrefabInstance:
   m_ObjectHideFlags: 0
