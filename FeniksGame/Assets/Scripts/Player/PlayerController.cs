@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    //Остальное
+    //Canvas
     [SerializeField] private GameObject narration;
+    [SerializeField] private GameObject gameover;
     //HP BAR
     [SerializeField] private GameObject HP200;
     [SerializeField] private GameObject HP175;
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
         ExaminationHPBar();
         GetInput();
         HPBARText();
+        GameOver();
     }
     private void GetInput()
     {
@@ -66,11 +68,28 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    private void GameOver()
+    {
+        if (HP < 1)
+        {
+            gameover.SetActive(!gameover.activeInHierarchy);
+            Cursor.lockState = CursorLockMode.None;
+            if (gameover.activeInHierarchy)
+            {
+                Time.timeScale = 0;
+            }
+            else
+            {
+                Time.timeScale = 1;
+            }
+            GetComponent<PlayerController>().enabled = false;
+        }
+    }
     void ExaminationHPBar()
     {
         if (HP > 175)
         {
-            if (HP < 200)
+            if (HP < 201)
             {
                 hpbar = HPBar.HP200;
                 ChooseHPBar(hpbar);
@@ -94,7 +113,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (HP > 100)
         {
-            if (HP < 125)
+            if (HP < 126)
             {
                 hpbar = HPBar.HP125;
                 ChooseHPBar(hpbar);
@@ -102,7 +121,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (HP > 75)
         {
-            if (HP < 100)
+            if (HP < 101)
             {
                 hpbar = HPBar.HP100;
                 ChooseHPBar(hpbar);
@@ -110,7 +129,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (HP > 50)
         {
-            if (HP < 75)
+            if (HP < 76)
             {
                 hpbar = HPBar.HP75;
                 ChooseHPBar(hpbar);
@@ -118,15 +137,15 @@ public class PlayerController : MonoBehaviour
         }
         else if (HP > 25)
         {
-            if (HP < 50) 
+            if (HP < 51) 
             {
                 hpbar = HPBar.HP50;
                 ChooseHPBar(hpbar);
             }
         }
-        else if (HP < 0)
+        else if (HP > 0)
         {
-            if (HP > 25)
+            if (HP < 26)
             {
                 hpbar = HPBar.HP25;
                 ChooseHPBar(hpbar);
