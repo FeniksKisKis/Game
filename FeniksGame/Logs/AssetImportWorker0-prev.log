@@ -15,7 +15,7 @@ C:/Unity/Game/FeniksGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65404
+51708
 Successfully changed project path to: C:/Unity/Game/FeniksGame
 C:/Unity/Game/FeniksGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Unity/Game/FeniksGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10060] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3579890324 [EditorId] 3579890324 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OSAKMFO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2308] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 4231961005 [EditorId] 4231961005 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OSAKMFO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10060] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3579890324 [EditorId] 3579890324 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OSAKMFO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2308] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 4231961005 [EditorId] 4231961005 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OSAKMFO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 628.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 149.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Unity/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031273 seconds.
+Registered in 0.010052 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 278.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 145.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.299 seconds
+- Completed reload, in  1.121 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2300ms)
-		BeginReloadAssembly (287ms)
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1453ms)
-			LoadAssemblies (280ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (448ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (151ms)
-			SetupLoadedEditorAssemblies (678ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (462ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (278ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015053 seconds.
+Registered in 0.013153 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Unity\Game\FeniksGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity\Game\FeniksGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
+- Completed reload, in  1.808 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2255ms)
-		BeginReloadAssembly (271ms)
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1723ms)
-			LoadAssemblies (227ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1389ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (593ms)
+			SetupTypeCache (454ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (768ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (626ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (496ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3766 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (104.3 KB). Loaded Objects now: 4255.
-Memory consumption went from 152.8 MB to 152.7 MB.
-Total: 11.148800 ms (FindLiveObjects: 0.805600 ms CreateObjectMapping: 0.769500 ms MarkObjects: 9.305500 ms  DeleteObjects: 0.265900 ms)
+Unloading 3760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (103.9 KB). Loaded Objects now: 4249.
+Memory consumption went from 150.1 MB to 150.0 MB.
+Total: 4.824700 ms (FindLiveObjects: 0.375600 ms CreateObjectMapping: 0.169300 ms MarkObjects: 4.106500 ms  DeleteObjects: 0.171400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,655 +166,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29945.082954 seconds.
-  path: Assets/Prefabs/HELL ARENA.fbx
-  artifactKey: Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.fbx using Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4534814e079917b98965c6d4977917b') in 0.907485 seconds 
+  Time since last request: 2734.992511 seconds.
+  path: Assets/Materials/TerrainTextures/sand_albedo.tif
+  artifactKey: Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/sand_albedo.tif using Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be945a2e45ecdc931b46418ec84ff448') in 0.119806 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.222777 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e64bf93a9a0ea3aa77ab946c209512') in 0.038697 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/TerrainTextures/scree_albedo.tif
+  artifactKey: Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/scree_albedo.tif using Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95251739292ec1dd75b83d03de45db5c') in 0.018825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.984854 seconds.
-  path: Assets/Prefabs/HELL ARENA.fbx
-  artifactKey: Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.fbx using Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31440f1c97915f4a755ea20b37f5ce9a') in 0.123533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b58e56d5ee56286d086f76e47abd383') in 0.034075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.245411 seconds.
-  path: Assets/Prefabs/HELL ARENA.fbx
-  artifactKey: Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.fbx using Guid(25bfeb0594983f74ca5ae2344bf007a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33fd550d5ea8864d103b1c978e5ef3c') in 0.098072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab0602b86316701abb6e7487cceb238') in 0.038558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.985008 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd149c908f5f135e7168201699402eb') in 0.026538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.426213 seconds.
-  path: Assets/Prefabs/textures/4cce3a447169eb98f36cd90fe08fc1e10.png
-  artifactKey: Guid(0b474b0e113b5724b8925f25985edf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/textures/4cce3a447169eb98f36cd90fe08fc1e10.png using Guid(0b474b0e113b5724b8925f25985edf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defcd1aa528a53ded6efb6ebb97102b0') in 0.220687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Prefabs/textures/NormalMap1.png
-  artifactKey: Guid(8b721400ce5687e4d9419609d33cd635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/textures/NormalMap1.png using Guid(8b721400ce5687e4d9419609d33cd635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d64907e9d5e6eee40e78b2d035d22e') in 0.023094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Prefabs/textures/NormalMap.png
-  artifactKey: Guid(1d2416f021c6ff7499f6c11ea4ce6d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/textures/NormalMap.png using Guid(1d2416f021c6ff7499f6c11ea4ce6d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649aa3fc43ab2cc47363e2d9a2885e5d') in 0.040170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/textures/0902e24c3da27440bb0f552c335f3e3b_jpg_004.jpeg
-  artifactKey: Guid(cda868c851b466f4b939248b031a8b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/textures/0902e24c3da27440bb0f552c335f3e3b_jpg_004.jpeg using Guid(cda868c851b466f4b939248b031a8b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9439f02deef9073d7dd3764e5324c318') in 0.034636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.752275 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Black.mat
-  artifactKey: Guid(650d4560152f8794f8f1db278512d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Black.mat using Guid(650d4560152f8794f8f1db278512d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96247e97eceb19427d236732a804e96') in 0.024615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Dark blue 1.mat
-  artifactKey: Guid(63243529402e54e47866c82ecda2034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Dark blue 1.mat using Guid(63243529402e54e47866c82ecda2034c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad21fe6852db4b4aa6e59ffaca8ecfc') in 0.060722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Dark blue.mat
-  artifactKey: Guid(c827204e372644344bb901ecda422b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Dark blue.mat using Guid(c827204e372644344bb901ecda422b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95255b35ec6d1539c9452e15a5cd9261') in 0.024962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Dark blue 2.mat
-  artifactKey: Guid(ddcde365f306959439b9a4b9afa52bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Dark blue 2.mat using Guid(ddcde365f306959439b9a4b9afa52bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e0b007ced3ee23203b302eb962451c') in 0.036715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Dark green.mat
-  artifactKey: Guid(79dc008f606354045a3044f11d02ec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Dark green.mat using Guid(79dc008f606354045a3044f11d02ec60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d725fd5fb4e7ab9c1f851701a38b14f') in 0.021940 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/TerrainTextures/scree_mask.tif
+  artifactKey: Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/scree_mask.tif using Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f5192ed0ce98a3ef99b3956713ce54') in 0.024768 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Materials/Glass materials/Other materials/Dark green 1.mat
-  artifactKey: Guid(7909ea76313a3f9468ecdb3006b90e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Glass materials/Other materials/Dark green 1.mat using Guid(7909ea76313a3f9468ecdb3006b90e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b474768f81d2748d0d306992ffd80c9') in 0.032782 seconds 
+  path: Assets/Materials/TerrainTextures/snow_mask.tif
+  artifactKey: Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/snow_mask.tif using Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfc46e703abb35185d4790b254e5bb8') in 0.018649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.347539 seconds.
-  path: Assets/Prefabs/Materials/4cce3a447169eb98f36cd90fe08fc1e10.mat
-  artifactKey: Guid(6a1f41a0db1ac83409457b19926a586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/4cce3a447169eb98f36cd90fe08fc1e10.mat using Guid(6a1f41a0db1ac83409457b19926a586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b0ac872d6795c9d79dbcad2d546d9a') in 0.022768 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/TerrainTextures/sand_mask.tif
+  artifactKey: Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/sand_mask.tif using Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9602071ba59c4e95dc7ce26a6cb6374') in 0.031389 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Prefabs/Materials/0902e24c3da27440bb0f552c335f3e3b_jpg_004.mat
-  artifactKey: Guid(6685dd39e59a1d14ebba3f1db6339afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/0902e24c3da27440bb0f552c335f3e3b_jpg_004.mat using Guid(6685dd39e59a1d14ebba3f1db6339afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308793babb213b121798a993eca84b95') in 0.021275 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Materials/TerrainTextures/rock_mask.tif
+  artifactKey: Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/rock_mask.tif using Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d972fab6cffb31f6570baa07976a451') in 0.018569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 180.206019 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6663e7f643daf48e5145cb14a4371cf3') in 0.043665 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TerrainTextures/snow_normal.tif
+  artifactKey: Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/snow_normal.tif using Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7a2fd6c1b904c4b21af6b3b8aaf382') in 0.060951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.488223 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359bf0c5fd12f33a2ffb1d1070bafd6b') in 0.035087 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/TerrainTextures/rock_albedo.tif
+  artifactKey: Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/rock_albedo.tif using Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e891bf2ff7ae96f9168fae87a7ff8e') in 0.016505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.339703 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f625648f6481cc89ceab715add690') in 0.035121 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/TerrainTextures/moss_mask.tif
+  artifactKey: Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/moss_mask.tif using Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3d2d8f6193d7072152c6dd6b348f3b') in 0.023432 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.667798 seconds.
-  path: Assets/Prefabs/0902e24c3da27440bb0f552c335f3e3b_jpg_004.mat
-  artifactKey: Guid(c387ddc3bbf57544293c1e72d3a429ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/0902e24c3da27440bb0f552c335f3e3b_jpg_004.mat using Guid(c387ddc3bbf57544293c1e72d3a429ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2f2ea5b9a11cc2be2f8f924aa36351') in 0.022147 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TerrainTextures/screen_normal.tif
+  artifactKey: Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/screen_normal.tif using Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606a62de924dd0c60b48c38c97713ec8') in 0.023895 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 666.496468 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73501a87a7fda2da22d02fb58e86fcbe') in 0.034402 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TerrainTextures
+  artifactKey: Guid(22df14e2079e43149b5cbea004650640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures using Guid(22df14e2079e43149b5cbea004650640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7f869e609262eef2a4c089f4c60914') in 0.005484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.028759 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b152813b229e24e30e08c60d5ee013ee') in 0.033868 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/TerrainTextures/dirt_mask.tif
+  artifactKey: Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/dirt_mask.tif using Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e18a1ff647f89fcee2c301e14063ec') in 0.019766 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.748936 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775385c51cedc3ab9f626b26b1c3054c') in 0.036000 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/TerrainTextures/dirt_normal.tif
+  artifactKey: Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/dirt_normal.tif using Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6922309598726d2acf467732ffa372') in 0.022094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.880546 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f6a2ecea476c15aa038ca01b1388b') in 0.032832 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Materials/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4260e44d02d7e7fdae72ef4ff11d7c96') in 0.018811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.165515 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6b154e9c1fef87198bd313a99e94f') in 0.028950 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TerrainTextures/moss_normal.tif
+  artifactKey: Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/moss_normal.tif using Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f38bca743359ff465190f8a6eefff0') in 0.022622 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.802720 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cecb17c18db7f8a065916fcc61cb0ca') in 0.047839 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/TerrainTextures/sand_normal.tif
+  artifactKey: Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/sand_normal.tif using Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d75b8079b01c29ebd6af92dde5c066') in 0.025383 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.912253 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5285dc8294f1c10ccb1bb421074bc136') in 0.031081 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/TerrainTextures/rock_normal.tif
+  artifactKey: Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/rock_normal.tif using Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5184fcc86962eef1013adf6a003040') in 0.024567 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.236623 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307a60dd4cf82a0e4a2993642ee727d') in 0.080515 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Materials/TerrainTextures/snow_albedo.tif
+  artifactKey: Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/snow_albedo.tif using Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd72a2e741dc57d1441fdf1e29a3f87') in 0.017408 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.390162 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81653e7b8281c029bfdc74bcbb2232e3') in 0.030163 seconds 
+  Time since last request: 11.188715 seconds.
+  path: Assets/Materials/TerrainTextures/moss.mat
+  artifactKey: Guid(132e226d8ea19784b8ebbb2440f15eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TerrainTextures/moss.mat using Guid(132e226d8ea19784b8ebbb2440f15eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91602f21afb34f8c824e354fac798437') in 0.097644 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.189973 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eda929cb8b0e694f61c596e7a9ff94') in 0.032467 seconds 
+  Time since last request: 93.085702 seconds.
+  path: Assets/Materials/Modifide Materials/Modifide/moss.mat
+  artifactKey: Guid(132e226d8ea19784b8ebbb2440f15eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Modifide Materials/Modifide/moss.mat using Guid(132e226d8ea19784b8ebbb2440f15eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf4d9ee7450d0e63741cb22c6a6637d') in 0.419642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.105634 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e61b2c1d41b338cf9ffc7f90f747027') in 0.029493 seconds 
+  Time since last request: 514.506099 seconds.
+  path: Assets/Prefabs/source/book_.obj
+  artifactKey: Guid(b1ad9687c51ce3e409173309c64fd448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/source/book_.obj using Guid(b1ad9687c51ce3e409173309c64fd448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4598b98f4ca02c95f5f350a84aef1dc0') in 0.103897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.946486 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bde6ef6ef75210d37261a58122da51') in 0.028437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.630665 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9295165601fabcef0f8ff148b4f8f7ac') in 0.029253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.670333 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bb21893e31726d3726cbc90f08e4a3') in 0.029616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.442807 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba5740c8d0224504ac707feeadc9b3d') in 0.030276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.429372 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abe0f119a80b269f0c771ab10651422') in 0.034380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.380186 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e50e2e96cacd96c28deb4d8ced13c9c') in 0.037514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.042345 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6a31d4646e7bb5fada1db8b9ffcb7a') in 0.033108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.527450 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864729f23328055eeeb5b2f8677470a1') in 0.027425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.001323 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6dfe1a33abbce6c6f18ff825f19798') in 0.029768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.195363 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33713face5fdd41b35af9ffd841c56') in 0.033541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.416373 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02997f21fc0c7a1282411120a200bff') in 0.029706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.451236 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da9d4b1d32831dec650880724fa4a7d') in 0.033192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.378173 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013fc346754201b09e914bbd55acb485') in 0.035414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.214912 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315f7deaa5b500abafbc626c82cbdd88') in 0.033427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.640874 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afbcd3ec121fa4e57e0da24d7c54289') in 0.045758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.188121 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d498939b8668f523c9e8e65cbcd5c9') in 0.030391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.664555 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d4e24bc090645bd45731dc04f70d36') in 0.032435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.178522 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d5fdd707609f77b2d7a20cf5e755e2') in 0.041435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.272375 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f7153670ad87caa0bd3db36d83855c') in 0.035475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.538829 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c512ddf7d06887bdef8d0e03e22e61') in 0.045041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.261972 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95da82d2f4074290230ae6e6f84d1dc') in 0.043686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.770551 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660cb13c1a71f9dc4a36675a8c189feb') in 0.048834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.207232 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d8f2ac2be2a78b4918cb9f1a3e6514') in 0.032529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.205692 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808930541a8f4fd6d241a2db83b44543') in 0.035734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.573157 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d0a76f0da19016324700b14b4be231') in 0.030992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.781518 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c49f2aed2ad2a500338fa898940fed') in 0.029200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.994538 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbab78ca7ddf860347a16d7db8eff0c') in 0.029920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.121427 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e2c9d388e95a0b170d2b58574619f4') in 0.031696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.774542 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7705affec6e15b1a9193ebdafe235ba') in 0.032465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.397079 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfd3c4a349721e1868edcb04c208621') in 0.034552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.378188 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34322dd00232774684d54cfc734ae6a') in 0.028957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.672137 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c5bd7765c36efb373bc535e6d4cce4') in 0.029342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.465854 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aabe2d428cfb1b40deab72702fab05d') in 0.029721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.435787 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3090d3e3d2d22264d93bc656dcdffc6d') in 0.049413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.106599 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3196e87cbc0e0a7494bce18f3a1e2934') in 0.029760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.860296 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdf87cd0ebe5337b29865889f03402f') in 0.029960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.666783 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ded750ec8c9912d3585715f8d4edb') in 0.038276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.742287 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee6b11780e4a45d76f00b40b314a243') in 0.032932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.598453 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7bac473ed194ac2ef5b0dcbaa67c08') in 0.035184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.799522 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97930a952cc2b3485aad90b825777dc') in 0.044722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.658307 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28da8278fd270a72449fb5b8eacf3d20') in 0.034058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.826123 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc65e09308dff5403c30b9c505736578') in 0.043487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.796467 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f1edb5de9f11ab5a69614f8328533d') in 0.035928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.783423 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4cac7a092e4fd65fb5d73997fd339d') in 0.032171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.993220 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003fd32e28163d556880b79522f32090') in 0.037058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.180889 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29000be1dddb217a1bcaaaff5736b3a9') in 0.029214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.971153 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd6e8a9885f7f489dcb3064024d1d3') in 0.038120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.504612 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033b420472cd96ca657fe03baef59332') in 0.036155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.784433 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28988c339f93ff78cab224a1001b3958') in 0.036868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.778496 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43798ef681058134d62b6e668079ae41') in 0.036371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.382518 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6144983d42bffd39fc88dfcfe1e9c56a') in 0.033736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.019872 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4b95376877ff64c28539cf820327c5') in 0.039284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.134407 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bdc1980c4c16a1a197229c6ebbaaba') in 0.035037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.216102 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09393a4f711da91019e98624c7f98292') in 0.041300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.174314 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633727fb88c557a5ab947392878018f8') in 0.033404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.419336 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0249b9a9e896a9137b0d2a2d54334f69') in 0.032101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.955324 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbd2a1d49924f8b65265082a48d9fdf') in 0.031568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.008956 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08729f44e608e09811a205d6134520dd') in 0.038063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.968021 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604a850ca2f51d2d059c29e0bb8f480d') in 0.033444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.868887 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c71f0a30e62b091b26fc34a20f49212') in 0.030893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.445305 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f6105365d534fb80cc3d26033c47d') in 0.031360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.613577 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d0b0c0139e1d798139d902a5060406') in 0.035950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.987781 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f631093357210768f57b2522e7c3923d') in 0.032778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.902710 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624e5dd8ce6c3a21e8b79f55f6cd16e0') in 0.031166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.838596 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6a5aa08afa0a7c49ba5779d4f60b1e') in 0.030884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.937867 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b20b5516954210ea88e21199f1a672') in 0.034216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.991782 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ede5659d21addbc90c5ee9160e6f95') in 0.036233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.962376 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c62aa7b07ee0854b6912261d30dc2') in 0.031774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.433989 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ade03382b623a43b6b6150d4464d82') in 0.035182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.765516 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a9e6429acd13b8b979b687677590cf') in 0.042780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.476579 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947627d60d63bc6e8a027ddaed53fef6') in 0.037597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.818958 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f617253c06cac798d9daa582110c711') in 0.033908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.469872 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a135c7736b4f4923683d36f7cd512e66') in 0.036524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.583376 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb6eb5f1a14e8c92e0a442338c0fbf2') in 0.048820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.817463 seconds.
-  path: Assets/Prefabs/HELL ARENA.prefab
-  artifactKey: Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HELL ARENA.prefab using Guid(9b54a14692e87ee45b5dc3fc2f2218e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3151e44277665748ca4f82c51f6bb6da') in 0.047549 seconds 
+  Time since last request: 87.265016 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Boolean.png
+  artifactKey: Guid(1f012abb1184a47c48035dd54530fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Panel_Boolean.png using Guid(1f012abb1184a47c48035dd54530fb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7cefd2df157ef6c60682aabb72d044') in 0.083958 seconds 
