@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class EnemyLVL4 : MonoBehaviour
 {
     protected GameObject player;
-    protected int damage;
     protected float timeAttack;
 
     private void Start()

@@ -7,7 +7,10 @@ public class DemonLVL4 : EnemyLVL4
     [SerializeField] private float areaMove;
     [SerializeField] private float areaAttack;
     [SerializeField] private float timerAttack;
+    [SerializeField] private GameObject GameWine;
+    [SerializeField] private GameObject HPCanvas;
     [SerializeField] private int HP;
+    [SerializeField] private int damage;
 
     public void HPDemon(int value)
     {
@@ -23,19 +26,11 @@ public class DemonLVL4 : EnemyLVL4
     }
     protected override void Attack()
     {
-        if (timeAttack == timerAttack)
-        {
-            if (Vector3.Distance(transform.position, player.transform.position) < areaAttack)
-            {
-                player.GetComponent<PlayerControllerLVL2>().ChangeHealth(-10);
-                timeAttack = 0;
-            }
-        }
         if (timeAttack > timerAttack)
         {
             if (Vector3.Distance(transform.position, player.transform.position) < areaAttack)
             {
-                player.GetComponent<PlayerControllerLVL2>().ChangeHealth(-10);
+                player.GetComponent<PlayerControllerLVL4>().ChangeHealth(-damage);
                 timeAttack = 0;
             }
         }
@@ -44,10 +39,16 @@ public class DemonLVL4 : EnemyLVL4
     {
         if (HP == 0)
         {
+            Cursor.lockState = CursorLockMode.None;
+            GameWine.SetActive(true);
+            HPCanvas.SetActive(false);
             Destroy(gameObject);
         }
         if (HP < 0)
         {
+            Cursor.lockState = CursorLockMode.None;
+            GameWine.SetActive(true);
+            HPCanvas.SetActive(false);
             Destroy(gameObject);
         }
     }

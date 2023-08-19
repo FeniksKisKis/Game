@@ -31,9 +31,9 @@ public class PlayerControllerLVL3 : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Teleport2"))
+        if (other.CompareTag("Teleport3"))
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(6);
         }
         if (other.CompareTag("Standforamagicwand"))
         {

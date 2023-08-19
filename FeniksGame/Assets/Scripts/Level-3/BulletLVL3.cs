@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class BulletLVL3 : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private int Damage;
     private Vector3 direction;
 
     public void SetDirection(Vector3 value)
@@ -25,7 +26,7 @@ public class BulletLVL3 : MonoBehaviour
     {
         if (other.CompareTag("KingDemon"))
         {
-            other.GetComponent<DemonLVL4>().HPDemon(-10);
+            other.GetComponent<DemonLVL4>().HPDemon(-Damage);
         }
         Destroy(gameObject);
     }

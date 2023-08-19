@@ -2061,7 +2061,7 @@ PrefabInstance:
     - target: {fileID: 3249525172946519001, guid: 7104f4f5b29a1f04a956c172be2d2bf6, type: 3}
       propertyPath: bullet
       value: 
-      objectReference: {fileID: 4499669952582666067, guid: 54fef6afb7c6591419ab88a5672ab2dd, type: 3}
+      objectReference: {fileID: 4499669952582666067, guid: 9714a0a5fc2fc9245a02cd627bf64192, type: 3}
     - target: {fileID: 3249525172946519001, guid: 7104f4f5b29a1f04a956c172be2d2bf6, type: 3}
       propertyPath: spread
       value: 0
@@ -3574,7 +3574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fd2425545c02f4d948a2cbce9d608a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 25
+  speed: 7
   isGrounded: 1
   jumpPower: 20
   Player: {fileID: 2128543974}

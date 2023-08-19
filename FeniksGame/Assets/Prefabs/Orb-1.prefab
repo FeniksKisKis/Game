@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 676893199207631463}
   - component: {fileID: 132490159331906372}
   - component: {fileID: 4410426332522915930}
-  - component: {fileID: 4929122661184746448}
+  - component: {fileID: -8218136576631637551}
   - component: {fileID: 7036527403371918893}
   m_Layer: 0
   m_Name: Orb-1
@@ -117,7 +117,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4929122661184746448
+--- !u!114 &-8218136576631637551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,10 +126,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4499669952582666067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fecba9645fd95c42a4f70fbc450539b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a6dafbf3868e5f4593e45593ac984a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 15
+  Damage: 10
 --- !u!108 &7036527403371918893
 Light:
   m_ObjectHideFlags: 0

@@ -32,7 +32,7 @@ public class PlayerControllerLVL1 : MonoBehaviour
     {
         if (other.CompareTag("Teleport1"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 }

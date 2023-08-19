@@ -23,14 +23,6 @@ public class DemonLVL2 : EnemyLVL2
     }
     protected override void Attack()
     {
-        if (timeAttack == timerAttack)
-        {
-            if (Vector3.Distance(transform.position, player.transform.position) < areaAttack)
-            {
-                player.GetComponent<PlayerControllerLVL2>().ChangeHealth(-10);
-                timeAttack = 0;
-            }
-        }
         if (timeAttack > timerAttack)
         {
             if (Vector3.Distance(transform.position, player.transform.position) < areaAttack)

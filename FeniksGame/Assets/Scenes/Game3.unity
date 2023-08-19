@@ -3232,7 +3232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fd2425545c02f4d948a2cbce9d608a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 25
+  speed: 7
   isGrounded: 1
   jumpPower: 20
   Player: {fileID: 2128543974}
