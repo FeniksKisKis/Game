@@ -339,10 +339,10 @@
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerControllerLVL1.cs"
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerLookLVL1.cs"
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerMoveLVL1.cs"
-"Assets/Scripts/Level-2/EnemyLVL2/DemonLVL2.cs"
-"Assets/Scripts/Level-2/EnemyLVL2/EnemyLVL2.cs"
-"Assets/Scripts/Level-2/GameControlerLVL2/ButtonsLVL2.cs"
-"Assets/Scripts/Level-2/PlayerLVL2/PlayerControllerLVL2.cs"
+"Assets/Scripts/Level-2/ButtonsLVL2.cs"
+"Assets/Scripts/Level-2/DemonLVL2.cs"
+"Assets/Scripts/Level-2/EnemyLVL2.cs"
+"Assets/Scripts/Level-2/PlayerControllerLVL2.cs"
 -langversion:9.0
 
 /deterministic
