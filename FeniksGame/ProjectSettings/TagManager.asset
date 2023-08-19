@@ -11,6 +11,7 @@ TagManager:
   - NarrationShere
   - BloodDemon
   - Teleport1
+  - Teleport2
   layers:
   - Default
   - TransparentFX
