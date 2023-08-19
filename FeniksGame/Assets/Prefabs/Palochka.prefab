@@ -94,8 +94,8 @@ GameObject:
   - component: {fileID: 3249525172946519007}
   - component: {fileID: 3249525172946519002}
   - component: {fileID: 3249525172946519003}
-  - component: {fileID: 3249525172946519000}
   - component: {fileID: 3249525172946519001}
+  - component: {fileID: 3176961668804520243}
   m_Layer: 0
   m_Name: Palochka
   m_TagString: Untagged
@@ -171,20 +171,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3249525172946519000
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6109292939228814595}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4231286062884972906, guid: 49e379b4cd7e88041886174de768c231, type: 3}
 --- !u!114 &3249525172946519001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,11 +183,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830271be99154704f8175f7749fd4286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4499669952582666067, guid: 54fef6afb7c6591419ab88a5672ab2dd, type: 3}
+  bullet: {fileID: 4499669952582666067, guid: 9714a0a5fc2fc9245a02cd627bf64192, type: 3}
   mainCamera: {fileID: 0}
   spawnBullet: {fileID: 6109292939706308647}
   shootForce: 20
   spread: 0
+--- !u!65 &3176961668804520243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6109292939228814595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 14.856545}
+  m_Center: {x: 0, y: -6.0860944e-15, z: 7.5717273}
 --- !u!1 &6109292939286861378
 GameObject:
   m_ObjectHideFlags: 0

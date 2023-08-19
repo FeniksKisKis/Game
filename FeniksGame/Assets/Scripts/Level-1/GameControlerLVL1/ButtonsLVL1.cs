@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ButtonsLVL2 : MonoBehaviour
+public class ButtonsLVL1 : MonoBehaviour
 {
     private GameObject player;
 

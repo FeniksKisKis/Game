@@ -332,6 +332,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Level-1/GameControlerLVL1/ButtonsLVL1.cs"
 "Assets/Scripts/Level-1/GameControlerLVL1/CopyLVL1.cs"
 "Assets/Scripts/Level-1/GameControlerLVL1/DelateObjectLVL1.cs"
 "Assets/Scripts/Level-1/GunLVL1/BulletLVL1.cs"
@@ -339,10 +340,15 @@
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerControllerLVL1.cs"
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerLookLVL1.cs"
 "Assets/Scripts/Level-1/PlayerLVL1/PlayerMoveLVL1.cs"
-"Assets/Scripts/Level-2/ButtonsLVL2.cs"
 "Assets/Scripts/Level-2/DemonLVL2.cs"
 "Assets/Scripts/Level-2/EnemyLVL2.cs"
 "Assets/Scripts/Level-2/PlayerControllerLVL2.cs"
+"Assets/Scripts/Level-3/BulletLVL3.cs"
+"Assets/Scripts/Level-3/GunLVL3.cs"
+"Assets/Scripts/Level-3/PlayerControllerLVL3.cs"
+"Assets/Scripts/Level-4/DemonLVL4.cs"
+"Assets/Scripts/Level-4/EnemyLVL4.cs"
+"Assets/Scripts/Level-4/PlayerControllerLVL4.cs"
 -langversion:9.0
 
 /deterministic

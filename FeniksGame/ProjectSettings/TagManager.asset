@@ -12,6 +12,9 @@ TagManager:
   - BloodDemon
   - Teleport1
   - Teleport2
+  - Teleport3
+  - Standforamagicwand
+  - KingDemon
   layers:
   - Default
   - TransparentFX
